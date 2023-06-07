@@ -1,6 +1,6 @@
-Forcepoint NGFW-SMC Ansible Collection
+Forcepoint SMC Ansible collection
 ======================================
-[Ansible](https://www.ansible.com) collection that allows us to configure and automate [Forcepoint Next Generation Firewall NGFW](https://www.forcepoint.com/product/network-security/forcepoint-ngfw). It uses [smc-python](https://github.com/Forcepoint/fp-NGFW-SMC-python) api for all operations between ansible client and Forcepoint NGFW Management Center.
+[Ansible](https://www.ansible.com) collection that allows us to configure and automate [Forcepoint FlexEdge Secure SD-WAN](https://www.forcepoint.com/product/ngfw-next-generation-firewall). It uses [smc-python](https://github.com/Forcepoint/fp-NGFW-SMC-python) api for all operations between ansible client and Forcepoint SMC. 
 
 #### Prerequisites
 
