@@ -1,0 +1,15 @@
+- name: Create a new BGP configuration
+  hosts: localhost
+  gather_facts: no
+  tasks:
+  - name: Refresh policy
+    policy_push:
+      name: Atlanta
+      wait_for_finish: yes
+      max_tries: 10
+      sleep: 3
+      smc_address: 'http://127.0.0.1:8082'
+      smc_api_key: 'vzNkPjuot9JWcRNH4Q5kQ5hC'
+      smc_api_version: '7.1'
+      smc_timeout: 15
+ 

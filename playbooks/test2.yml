@@ -1,0 +1,12 @@
+---
+- name: Search for host elements with IP 1.1.1.1
+  hosts: localhost
+  tasks:
+    - network_element_facts:
+       element: host
+       filter: 1.1.1.1
+       smc_address: 'http://127.0.0.1:8082'
+       smc_api_key: 'vzNkPjuot9JWcRNH4Q5kQ5hC' 
+       smc_api_version: '7.1'
+       smc_timeout: 15
+
