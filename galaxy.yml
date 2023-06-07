@@ -43,10 +43,10 @@ tags: ['ngfw', 'security', 'forcepoint', 'smc']
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: https://github.com/fp-secure-flexedge-sdwan/ngfw_smc_ansible 
+repository: https://github.com/fp-flexedge-secure-sdwan/ngfw_smc_ansible
 
 # The URL to any online docs
-documentation: https://github.com/fp-secure-flexedge-sdwan/ngfw_smc_ansible/blob/main/README.md 
+documentation: https://github.com/fp-flexedge-secure-sdwan/ngfw_smc_ansible/blob/main/README.md 
 
 # The URL to the homepage of the collection/project
 # homepage: http://example.com
