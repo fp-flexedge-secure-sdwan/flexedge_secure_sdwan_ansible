@@ -13,7 +13,7 @@ Forcepoint NGFW-SMC Ansible Collection
 #### Using `virtualenv` (recommended)
 ```bash
 pip install ansible
-ansible-galaxy collection install fp_flexedge_secure_sdwan.ngfw_smc_ansible
+ansible-galaxy collection install fp_flexedge_secure_sdwan.flexedge_secure_sdwan_ansible
 ```
 * To check if the collection is installed successfully, find it in the list using:
 ```bash
@@ -42,7 +42,7 @@ Example play:
 - name: Get the network element facts 
   hosts: localhost
   tasks:
-    - fp_flexedge_secure_sdwan.ngfw_smc_ansible.network_element_facts:
+    - fp_flexedge_secure_sdwan.flexedge_secure_sdwan_ansible.network_element_facts:
         element: host
         filter: 1.1.1.1
         smc_address: 'http://127.0.0.1:8082'
